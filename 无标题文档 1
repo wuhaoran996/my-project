@@ -1,0 +1,10 @@
+            file_path = "/media/dockang/D/haoran/pythonProject1/sim_data.json"
+   model_path = "/media/dockang/D/haoran/pythonProject1/dqn_model.pth"
+    replay_buffer_path = "/media/dockang/D/haoran/pythonProject1/replay_buffer.pkl"
+
+  File "/media/dockang/D/haoran/pythonProject1/socket_new1.py", line 411, in simulate_one_episode
+    position_x, position_z, rotation_y, target_x, target_z = parsed_data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+TcpMessagingSession - receive error
